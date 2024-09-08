@@ -1,0 +1,490 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>singer playlist</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="singerPage.css">
+</head>
+
+<body>
+    <!-- top navigation bar -->
+    <nav class="navbar">
+        <div class="left-container">
+            <!-- brand logo  -->
+            <div class="logo">
+                <img src="/logo.png" alt="logo">
+                <p>
+                    ninja <br>
+                    <strong>Studio</strong>
+                </p>
+            </div>
+            <button id="Favourites">Favourites</button>
+        </div>
+
+        <div class="right-container">
+            <!-- search box of navbar  -->
+            <div class="search-container">
+                <!-- search icon  -->
+                <img src="./icons/magnifying-glass-solid.svg" alt="" class="icon">
+                <input type="text" name="" id="search" placeholder="search...">
+                <!-- mic icon -->
+                <img src="/icons/microphone-solid.svg" alt="" class="icon">
+            </div>
+            <div class="notification">
+                <img src="/icons/bell-solid.svg" alt="" class="icon">
+            </div>
+            <div class="profile-logo">
+                <img src="/singers/zayn-malik.jpg" alt="">
+            </div>
+        </div>
+
+    </nav>
+    <!-- main container here singer details and playlist  -->
+    <main class="main-singer">
+        <!-- singer details section  -->
+        <section class="singer-portfolio">
+            <img src="" alt="singerImage" id="singer-img">
+            <div class="singer-details">
+                <div class="followers">
+                    <span>851 followers</span>
+                </div>
+                <div class="description-part">
+                    <h1 id="singer-name"></h1>
+                    <p class="band-name">Indian Band</p>
+                    <p id="singer-details"></p>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero culpa consequatur dolorem soluta
+                        reiciendis optio tempore eveniet ut, ipsum, asperiores dolor unde voluptatem, quaerat corporis
+                        nesciunt. Optio eum dicta alias!</p>
+                </div>
+                <div class="btns">
+                    <button>Play All</button>
+                    <button>Follow</button>
+                </div>
+                <p>247 Tracks | 128 Albums</p>
+            </div>
+        </section>
+        <!-- music list section  -->
+        <section class="music-list">
+            <!-- card 1  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>01</span>
+                    <img src="./songPhoto/skull.jpg" alt="">
+                    <div class="song-name">
+                        <p>Mirage</p>
+                        <p class="sm-txt">Else</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 2  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>02</span>
+                    <img src="./songPhoto/ball.webp" alt="">
+                    <div class="song-name">
+                        <p>Alone</p>
+                        <p class="sm-txt">Alan Walker</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 3  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>03</span>
+                    <img src="./songPhoto/flower.jpg" alt="">
+                    <div class="song-name">
+                        <p>White Lverson</p>
+                        <p class="sm-txt">Post Malone</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 4  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>04</span>
+                    <img src="./songPhoto/tiger.jpg" alt="">
+                    <div class="song-name">
+                        <p>Go Flex</p>
+                        <p class="sm-txt">Post Malone</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 5  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>05</span>
+                    <img src="./songPhoto/wolf.jpeg" alt="">
+                    <div class="song-name">
+                        <p>Better Now</p>
+                        <p class="sm-txt">honey singh</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 6  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>06</span>
+                    <img src="./songPhoto/skull.jpg" alt="">
+                    <div class="song-name">
+                        <p>Big Lie</p>
+                        <p class="sm-txt">Post Malone</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 7  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>07</span>
+                    <img src="./songPhoto/ball.webp" alt="">
+                    <div class="song-name">
+                        <p>Deja Vu</p>
+                        <p class="sm-txt">Post Malone</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 8  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>08</span>
+                    <img src="./songPhoto/tiger.jpg" alt="">
+                    <div class="song-name">
+                        <p>Pysco</p>
+                        <p class="sm-txt">justin Beiber</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 9  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>09</span>
+                    <img src="./songPhoto/wolf.jpeg" alt="">
+                    <div class="song-name">
+                        <p>Blinding Lights</p>
+                        <p class="sm-txt">Weeknd</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+            <!-- card 10  -->
+            <div class="card">
+                <div class="song-detail">
+                    <span>10</span>
+                    <img src="./songPhoto/wolf.jpeg" alt="">
+                    <div class="song-name">
+                        <p>Blinding Lights</p>
+                        <p class="sm-txt">Weeknd</p>
+                    </div>
+                </div>
+                <div class="time">
+                    <p class="sm-txt">4:44</p>
+                </div>
+                <div class="icon-box">
+                    <img src="/icons/heart-regular.svg" alt="">
+                </div>
+            </div>
+
+        </section>
+    </main>
+    <!-- right container  -->
+    <aside id="queues">
+        <!-- similar artists section scrolbar  -->
+        <section id="similar-artist">
+            <div class="heading">
+                <h1>Similar Artists</h1>
+                <p>View All</p>
+            </div>
+            <div class="items-list">
+                <div class="card">
+                    <div class="song-detail">
+                        <span>01</span>
+                        <img src="./songPhoto/skull.jpg" alt="">
+                        <div class="song-name">
+                            <p>Mirage</p>
+                            <p class="sm-txt">Else</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>02</span>
+                        <img src="./songPhoto/ball.webp" alt="">
+                        <div class="song-name">
+                            <p>Alone</p>
+                            <p class="sm-txt">Alan Walker</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>03</span>
+                        <img src="./songPhoto/flower.jpg" alt="">
+                        <div class="song-name">
+                            <p>White Lverson</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>04</span>
+                        <img src="./songPhoto/tiger.jpg" alt="">
+                        <div class="song-name">
+                            <p>Go Flex</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>05</span>
+                        <img src="./songPhoto/wolf.jpeg" alt="">
+                        <div class="song-name">
+                            <p>Better Now</p>
+                            <p class="sm-txt">honey singh</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>06</span>
+                        <img src="./songPhoto/skull.jpg" alt="">
+                        <div class="song-name">
+                            <p>Big Lie</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- recently played section scrollbar  -->
+        <section id="recently-played">
+            <div class="heading">
+                <h1>Recently played</h1>
+                <p>View All</p>
+            </div>
+            <div class="items-list">
+                <div class="card">
+                    <div class="song-detail">
+                        <span>01</span>
+                        <img src="./songPhoto/skull.jpg" alt="">
+                        <div class="song-name">
+                            <p>Mirage</p>
+                            <p class="sm-txt">Else</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>02</span>
+                        <img src="./songPhoto/ball.webp" alt="">
+                        <div class="song-name">
+                            <p>Alone</p>
+                            <p class="sm-txt">Alan Walker</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>03</span>
+                        <img src="./songPhoto/flower.jpg" alt="">
+                        <div class="song-name">
+                            <p>White Lverson</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>04</span>
+                        <img src="./songPhoto/tiger.jpg" alt="">
+                        <div class="song-name">
+                            <p>Go Flex</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>05</span>
+                        <img src="./songPhoto/wolf.jpeg" alt="">
+                        <div class="song-name">
+                            <p>Better Now</p>
+                            <p class="sm-txt">honey singh</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="song-detail">
+                        <span>06</span>
+                        <img src="./songPhoto/skull.jpg" alt="">
+                        <div class="song-name">
+                            <p>Big Lie</p>
+                            <p class="sm-txt">Post Malone</p>
+                        </div>
+                    </div>
+                    <div class="time">
+                        <p class="sm-txt">4:44</p>
+                    </div>
+                    <div class="icon-box">
+                        <img src="/icons/heart-regular.svg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </aside>
+
+    <footer id="player" style="display: flex; z-index: 2; border-top: 1px solid #c1bebe;">
+        <div class="music-info">
+            <img src="./latestRelese.avif" alt="" class="song-pic">
+            <div class="details">
+                <p class="song-name">Onism</p>
+                <p class="date">AUG 11,2024</p>
+            </div>
+            <img src="./icons/heart-regular.svg" alt="" class="icon">
+        </div>
+        <div class="playerBar">
+            <span>1:25</span>
+            <input type="range" name="range" id="myprogressBar" value="25" min="0" max="100">
+            <span>4.44</span>
+            <div class="playerBar-icons">
+
+                <img src="./icons/shuffle-solid.svg" alt="shuffle">
+                <img src="./icons/backward-step-solid.svg" alt="backward">
+                <img src="./icons/circle-pause-regular.svg" alt="pause">
+                <img src="./icons/forward-step-solid.svg" alt="forward">
+                <img src="./icons/repeat-solid.svg" alt="repeat">
+            </div>
+
+        </div>
+        <div class="volume">
+            <img src="./icons/volume-low-solid.svg" alt="">
+            <input type="range" name="range" id="myprogressBar" value="25" min="0" max="100px">
+        </div>
+    </footer>
+
+    <script src="singer.js"></script>
+</body>
+
+</html>

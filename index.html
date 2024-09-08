@@ -1,0 +1,476 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="left-container">
+            <div class="logo">
+                <img src="/logo.png" alt="logo">
+                <p>
+                    ninja <br>
+                    <strong>Studio</strong>
+                </p>
+            </div>
+            <button id="Favourites">Favourites</button>
+        </div>
+
+        <div class="right-container">
+            <div class="search-container">
+                <img src="./icons/magnifying-glass-solid.svg" alt="" class="icon">
+                <input type="text" name="" id="search" placeholder="search...">
+                <img src="/icons/microphone-solid.svg" alt="" class="icon">
+            </div>
+            <div class="notification">
+                <img src="/icons/bell-solid.svg" alt="" class="icon">
+            </div>
+            <div class="profile-logo">
+                <img src="/singers/zayn-malik.jpg" alt="">
+            </div>
+        </div>
+
+
+    </nav>
+
+    <main class="main">
+        <section class="main-container">
+            <div class="banner">
+                <img src="./upperImage/bestOfyear.jpeg" alt="best">
+                <img src="./upperImage/dil.jpg" alt="dil">
+                <img src="./upperImage/edm.jpg" alt="edm">
+                <img src="./upperImage/latinDance.jpg" alt="latino">
+                <img src="./upperImage/moodBooster.jpeg" alt="moodBooster">
+            </div>
+            <div class="latest-release">
+                <h2>Latest Release</h2>
+                <div class="flex-box">
+                    <div class="music-box">
+                        <img src="/latestRelese.avif" alt="latestRelese">
+
+                        <div class="details">
+                            <p class="song-name">Onism</p>
+                            <p class="date">AUG 11,2024</p>
+                        </div>
+
+                        <div class="options">
+                            <label for="latest-release-checkbox1">...</label>
+                            <input type="checkbox" name="" id="latest-release-checkbox1">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p>Play Now</p>
+                                </div>
+
+                                <div class="drop-item">
+                                    <p> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Get Info</p>
+                                </div>
+                            </div>
+                            <p>4:43</p>
+                        </div>
+
+                    </div>
+                    <div class="music-box">
+                        <img src="/latestRelese.avif" alt="latestRelese">
+                        <div class="details">
+                            <p class="song-name">Onism</p>
+                            <p class="date">AUG 11,2024</p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox2">...</label>
+                            <input type="checkbox" name="" id="latest-release-checkbox2">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p>Play Now</p>
+                                </div>
+
+                                <div class="drop-item">
+                                    <p> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Get Info</p>
+                                </div>
+                            </div>
+                            <p>4:43</p>
+                        </div>
+                    </div>
+                    <div class="music-box">
+                        <img src="/latestRelese.avif" alt="latestRelese">
+                        <div class="details">
+                            <p class="song-name">Onism</p>
+                            <p class="date">AUG 11,2024</p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox3">...</label>
+                            <input type="checkbox" name="" id="latest-release-checkbox3">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p>Play Now</p>
+                                </div>
+
+                                <div class="drop-item">
+                                    <p> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Get Info</p>
+                                </div>
+                            </div>
+                            <p>4:43</p>
+                        </div>
+                    </div>
+                    <div class="music-box">
+                        <img src="/latestRelese.avif" alt="latestRelese">
+                        <div class="details">
+                            <p class="song-name">Onism</p>
+                            <p class="date">AUG 11,2024</p>
+                        </div>
+                        <div class="options">
+                            <label for="latest-release-checkbox4">...</label>
+                            <input type="checkbox" name="" id="latest-release-checkbox4">
+                            <div class="latest-release-dropdown">
+                                <div class="drop-item">
+                                    <p>Play Now</p>
+                                </div>
+
+                                <div class="drop-item">
+                                    <p> Add to Queue</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Add to playlist</p>
+                                </div>
+                                <hr>
+                                <div class="drop-item">
+                                    <p> Get Info</p>
+                                </div>
+                            </div>
+                            <p>4:43</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="singer-container">
+                <h2>Popular Artists</h2>
+                <div class="singers">
+                    <a href="#" class="singer-click" data-singer="Arjit Singh" data-img="/singers/arjitSingh.jpg">
+                        <div class="singer">
+                            <img src="/singers/arjitSingh.jpg" alt="Arjit Singh" class="singer-pic">
+                            <p class="name">Arjit Singh</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+
+                    <a href="#" class="singer-click" data-singer="Ed Sheeran"
+                        data-img="/singers/Ed_sheeran_billboard.webp">
+                        <div class="singer">
+                            <img src="/singers/Ed_sheeran_billboard.webp" alt="Ed Sheeran" class="singer-pic">
+                            <p class="name">Ed Sheeran</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+                    <a href="#" class="singer-click" data-singer="Honey Singh" data-img="/singers/honey-singh.jpg">
+                        <div class="singer">
+                            <img src="/singers/honey-singh.jpg" alt="Honey Singh" class="singer-pic">
+                            <p class="name">Honey Singh</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+                    <a href="#" class="singer-click" data-singer="Sidhu" data-img="/singers/sidhu.jpg">
+                        <div class="singer">
+                            <img src="/singers/sidhu.jpg" alt="Sidhu" class="singer-pic">
+                            <p class="name">Sidhu</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+                    <a href="#" class="singer-click" data-singer="Sonu Nigam" data-img="/singers/sonu-nigan.jpeg">
+                        <div class="singer">
+                            <img src="/singers/sonu-nigan.jpeg" alt="Sonu Nigam" class="singer-pic">
+                            <p class="name">Sonu Nigam</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+                    <a href="#" class="singer-click" data-singer="Zayn Malik" data-img="/singers/zayn-malik.jpg">
+                        <div class="singer">
+                            <img src="/singers/zayn-malik.jpg" alt="Zayn Malik" class="singer-pic">
+                            <p class="name">Zayn Malik</p>
+                            <img src="./icons/play-solid.svg" alt="Play Icon" class="icon play-icon">
+                        </div>
+                    </a>
+
+                </div>
+            </div>
+
+        </section>
+        <aside class="queue">
+            <div class="head">
+                <h2>Queue</h2>
+                <select name="queue" id="">
+                    <option value="">Queue</option>
+                    <option value="">PlayLists</option>
+                    <option value="">Favourite Song</option>
+                </select>
+            </div>
+            <div class="song-container">
+                <div class="song">
+                    <img src="./songPhoto/ball.webp" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">Mirage</p>
+                        <p class="singer-name">Else</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/flower.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/skull.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">New Skin</p>
+                        <p class="singer-name">Flume</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/tiger.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/wolf.jpeg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">pop</p>
+                        <p class="singer-name">zayn-malik</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/ball.webp" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">Mirage</p>
+                        <p class="singer-name">Else</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/flower.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/skull.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">New Skin</p>
+                        <p class="singer-name">Flume</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/tiger.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/wolf.jpeg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">pop</p>
+                        <p class="singer-name">zayn-malik</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/ball.webp" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">Mirage</p>
+                        <p class="singer-name">Else</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/flower.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/skull.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">New Skin</p>
+                        <p class="singer-name">Flume</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/tiger.jpg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">worry Bout Us</p>
+                        <p class="singer-name">Rosie Lowe</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+                <div class="song">
+                    <img src="./songPhoto/wolf.jpeg" alt="" class="song-pic">
+                    <div class="song-details">
+                        <p class="song-name">pop</p>
+                        <p class="singer-name">zayn-malik</p>
+                    </div>
+                    <img src="./icons/heart-regular.svg" alt="" class="icon">
+                </div>
+            </div>
+
+
+        </aside>
+
+    </main>
+    <section class="categories">
+        <div class="category">
+            <img src="./upperImage/party.jpg" alt="">
+            <p>Party</p>
+        </div>
+        <div class="category">
+            <img src="./upperImage/electronic.webp" alt="">
+            <p>Electronic</p>
+        </div>
+        <div class="category">
+            <img src="./upperImage/roadTrip.jpg" alt="">
+            <p>Road Trip</p>
+        </div>
+    </section>
+    <section class="latest-english">
+        <h2>Latest-English</h2>
+        <div class="latest">
+            <img src="./songPhoto/ball.webp" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/flower.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/skull.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/tiger.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/wolf.jpeg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/flower.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+    </section>
+    <section class="latest-english">
+        <h2>Latest-Hindi</h2>
+        <div class="latest">
+            <img src="./songPhoto/ball.webp" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/flower.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/skull.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/tiger.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/wolf.jpeg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+        <div class="latest">
+            <img src="./songPhoto/flower.jpg" alt="">
+            <p class="song-name">Onism</p>
+            <p class="singer-name">Aug 11,2024</p>
+        </div>
+    </section>
+    <footer id="player">
+        <div class="music-info">
+            <img src="./latestRelese.avif" alt="" class="song-pic">
+            <div class="details">
+                <p class="song-name">Onism</p>
+                <p class="date">AUG 11,2024</p>
+            </div>
+            <img src="./icons/heart-regular.svg" alt="" class="icon">
+        </div>
+        <div class="playerBar">
+            <span>1:25</span>
+            <input type="range" name="range" id="myprogressBar" value="25" min="0" max="100">
+            <span>4.44</span>
+            <div class="playerBar-icons">
+
+                <img src="./icons/shuffle-solid.svg" alt="shuffle">
+                <img src="./icons/backward-step-solid.svg" alt="backward">
+                <img src="./icons/circle-pause-regular.svg" alt="pause">
+                <img src="./icons/forward-step-solid.svg" alt="forward">
+                <img src="./icons/repeat-solid.svg" alt="repeat">
+            </div>
+
+        </div>
+        <div class="volume">
+            <img src="./icons/volume-low-solid.svg" alt="">
+            <input type="range" name="range" id="myprogressBar" value="25" min="0" max="100px">
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <!-- <script src="singer.js"></script> -->
+</body>
+
+</html>
