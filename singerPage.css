@@ -1,4 +1,13 @@
 /* main container  */
+
+/* home button  */
+#Home{
+    font-size: large;
+    color: #fff;
+    cursor: pointer;
+    background-color:inherit;
+    border: 0; 
+}
 .main-singer{
     width: 60%;
     height: 85vh;

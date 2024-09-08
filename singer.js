@@ -16,3 +16,9 @@ document.addEventListener("DOMContentLoaded", () => {
     // Optionally, you could load more detailed data about the singer dynamically
     document.getElementById('singer-details').textContent = `Details about ${singerName}  here:-`;
 })
+
+
+// Home page button going back to home page 
+document.querySelector("#Home").addEventListener("click", () => {
+    window.location.href = "index.html"
+})
